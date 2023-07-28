@@ -9,13 +9,7 @@ npm install --save-dev @nomicfoundation/hardhat-toolbox
 `npx hardhat`
 
 # Configuration:
-Go to `hardhat.config.js`.
+Go to `hardhat.config.js` configure your network.
 
-# Compile Solidity Contract:
-`npx hardhat compile`
-
-# Run:
-`npx hardhat run .\scripts\deploy.js --network hardhat`
-
-# NFT:
-Run `npm install @openzeppelin/contracts` to intasll package.
+# Deploy:
+`npx hardhat run .\scripts\deployMyContract.js --network hardhat`
