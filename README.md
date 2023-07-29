@@ -12,4 +12,4 @@ npm install --save-dev @nomicfoundation/hardhat-toolbox
 Go to `hardhat.config.js` configure your network.
 
 # Deploy:
-`npx hardhat run .\scripts\deployMyContract.js --network hardhat`
+Run `npx hardhat run .\scripts\deployMyContract.js --network hardhat` to deploy locally. `--network goerli` to deploy on goerli.
