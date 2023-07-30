@@ -27,7 +27,6 @@ async function main() {
   const contractAddress = "0xA92C0f7Ef1618239665ae582377fc49f17af925E";
   const myContractFactory = await ethers.getContractFactory("GoerliNFT");
   const myContract=myContractFactory.attach(contractAddress);
-  // console.log(myContract.address)
   let res=await myContract.balanceOf("0x52906abb6B9d358eEF7D903cf1ecb521643297f4");
   console.log(res)
 }
